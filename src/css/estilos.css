@@ -1,0 +1,132 @@
+body {
+    font-family: 'Asap', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: #c50000ef;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 25px;
+    background-color: #5b0000;
+}
+
+header .logo,
+header .pokedex {
+    width: 60px;
+    transition: 0.2s ease-in-out;
+}
+
+header .logo:hover,
+header .pokedex:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+main .cartao-pokemon:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+main {
+    padding: 25px;
+}
+
+main .listagem-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+}
+
+main .cartao-pokemon {
+    background-color: #dedede;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-pokemon:hover {
+    background-color: #6ecee1;
+    cursor: default;
+}
+
+main .cartao-pokemon {
+    background-color: #a8a8a8;
+}
+
+main .cartao-pokemon .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #0e0e0e;
+    border-radius: 15px;
+}
+
+main .cartao-pokemon .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+main .cartao-pokemon .gif {
+    width: 60px;
+    height: 60px;
+}
+
+main .cartao-pokemon .tipos {
+    display: flex;
+    gap: 10px;
+}
+
+main .cartao-pokemon .tipo {
+    padding: 9px;
+    border-radius: 15px;
+}
+
+.grama {
+    background-color: #7ad347;
+}
+
+.veneno {
+    background-color: #A020F0;
+}
+
+.fogo {
+    background-color: #f07c23;
+}
+
+.agua {
+    background-color: #5587f2;
+}
+
+.inseto {
+    background-color: #a6b91a;
+}
+
+.voador {
+    background-color: #8AFFFF;
+}
+
+.normal {
+    background-color: #c2c2c2;
+}
+
+.eletrico {
+    background-color: #e4e433;
+}
+
+main .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 9px;
+}
